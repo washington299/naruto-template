@@ -319,6 +319,8 @@ footer {
     .banner_watch_text, .banner_link {
         text-align: center;
         margin-bottom: 20px;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 @media only screen and (max-width: 380px) {
