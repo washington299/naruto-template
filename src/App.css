@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    flex-direction: column;
+}
