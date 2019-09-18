@@ -13,7 +13,7 @@ const Header = () => {
     return(
         <header>
             <div className="container">
-                <div className="logo" id="start"><a>Naruto Uzumaki</a></div>
+                <div className="logo"><a>Naruto Uzumaki</a></div>
                 <div className="menu">
                     <nav>
                         <div className="menuMobile" onClick={openMenu}>
