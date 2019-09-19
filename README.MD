@@ -1,1 +1,0 @@
-## A simple responsive naruto page made in ReactJs.
