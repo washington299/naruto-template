@@ -1,0 +1,45 @@
+.anime_informations {
+    display: flex;
+    width: 100%;
+}
+.block1,
+.block2,
+.block3 {
+    flex: 1;
+    padding: 10px;
+}
+.widget_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.widget_text {
+    color: #004;
+    padding-bottom: 20px;
+}
+.widget_button a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #FF4500;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF4500;
+    border-radius: 10px;
+}
+.widget_button a:hover {
+    color: white;
+    background-color: #FF4500;
+}
+
+
+@media only screen and (max-width: 562px) {
+    .anime_informations {
+        flex-direction: column;
+    }
+    .widget_title {
+        text-align: center;
+    }
+}

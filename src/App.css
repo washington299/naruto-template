@@ -6,12 +6,23 @@ body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    background-color: #FF9939;
 }
 .container {
     width: 1000px;
     display: flex;
     justify-content: space-between;
 }
+.centralize {
+    display: flex;
+    justify-content: center;
+}
 .column {
     flex-direction: column;
+}
+.padding-left {
+    padding-left: 10px;
+}
+.padding-right {
+    padding-right: 10px;
 }

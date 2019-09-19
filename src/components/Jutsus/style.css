@@ -1,0 +1,38 @@
+.jutsu_information {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.jutsu_description {
+    margin-left: 20px;
+}
+.jutsu_image img {
+    width: 450px;
+    height: 400px;
+}
+.jutsu_title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .jutsu_information {
+        flex-direction: column;
+    }
+    .jutsu_image {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .jutsu_title {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .jutsu_image img {
+        width: 320px;
+        height: 320px;
+    }
+}

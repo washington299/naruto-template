@@ -2,13 +2,23 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/Header';
-import BannerImage from './components/BannerImage';
+import BackgroundImage from './components/BackgroundImage';
+import InformationArea from './components/InformationArea';
+import Characters from './components/Characters';
+import Jutsus from './components/Jutsus';
+import Games from './components/Games';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Header />
-      <BannerImage />
+      <BackgroundImage />
+      <InformationArea />
+      <Characters />
+      <Jutsus />
+      <Games />
+      <Footer />
     </>
   );
 }

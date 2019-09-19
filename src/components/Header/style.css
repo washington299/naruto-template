@@ -38,19 +38,24 @@ nav ul, nav li {
 nav ul {
     display: flex;
 }
-nav ul a {
+nav ul li {
     padding: 26px 10px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
 }
-nav a:hover {
+nav li:hover {
     background-color: white;
     color: #000;
+    cursor: pointer;
 }
 
 .opened {
     display: flex;
+}
+
+.hide {
+    display: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -71,7 +76,7 @@ nav a:hover {
         background-color: #000;
         width: 100%;
     }
-    nav ul a {
+    nav ul li {
         padding: 20px 10px;
     }
 }
